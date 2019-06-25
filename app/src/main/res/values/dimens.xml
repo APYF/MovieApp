@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="movie_title_fontsize">32sp</dimen>
+    <dimen name="title_padding">24dp</dimen>
+    <dimen name="movie_detail_left_margin">10dp</dimen>
+    <dimen name="movie_detail_top_margin">5dp</dimen>
+    <dimen name="movie_date_fontsize">24sp</dimen>
+    <dimen name="movie_standard_fontsize">18sp</dimen>
+
+
+</resources>
