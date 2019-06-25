@@ -28,7 +28,7 @@ public class NetworkUtils {
     final static String LANGUAGE_PARAM = "language";
     final static String PAGE_PARAM = "page";
 
-    private static final String apiKey = "";
+    private static final String apiKey = "<API_KEY_HERE>";
     private static final String language = "en-US";
     private static final int page = 1;
 

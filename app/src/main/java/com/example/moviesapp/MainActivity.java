@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview_movie);
 
-        GridLayoutManager layoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL, false);
+        GridLayoutManager layoutManager = new GridLayoutManager(this, 2, GridLayoutManager.VERTICAL, false);
 
         mRecyclerView.setLayoutManager(layoutManager);
 
@@ -127,6 +127,4 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
         }
         return super.onOptionsItemSelected(item);
     }
-
-    // TODO: save recycler position
 }
