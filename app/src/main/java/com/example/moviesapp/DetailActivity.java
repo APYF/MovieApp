@@ -31,6 +31,8 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        setTitle(R.string.title_movie_detail);
+
         mTitleTV = (TextView) findViewById(R.id.tv_title);
         mPosterIV = (ImageView) findViewById(R.id.iv_detail_movie_poster);
         mVoteAverageTV = (TextView) findViewById(R.id.tv_movie_vote_average);
@@ -64,8 +66,6 @@ public class DetailActivity extends AppCompatActivity {
                 String ratingText = mMovie.getRating().toString() + "/10";
                 mVoteAverageTV.setText(ratingText);
                 mSynoposisTV.setText(mMovie.getOverView());
-
-
             }
         }
     }

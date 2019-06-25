@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
         mRecyclerView.setAdapter(mMovieAdapter);
 
         mLoadingIndicator = (ProgressBar) findViewById(R.id.progressBar);
-
+        setTitle(R.string.popular);
         loadMovies(POPULAR_MOVIES);
     }
 
