@@ -63,7 +63,7 @@ public class DetailActivity extends AppCompatActivity {
                     Log.e(TAG, "Parse release date exception: ", e);
                 }
                 mReleaseDateTV.setText(releaseDate);
-                String ratingText = mMovie.getRating().toString() + "/10";
+                String ratingText = mMovie.getRating().toString() + getString(R.string.out_of_ten);
                 mVoteAverageTV.setText(ratingText);
                 mSynoposisTV.setText(mMovie.getOverView());
             }
